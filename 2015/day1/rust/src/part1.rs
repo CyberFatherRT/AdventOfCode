@@ -1,7 +1,7 @@
 use std::fs;
 
 pub fn part1() -> String {
-    let file_path: &str = "input.txt";
+    let file_path: &str = "../../inputs/day1.txt";
     let string = fs::read_to_string(file_path).expect("Couldn't read file `input.txt`");
     let mut ans = 0;
     for i in string.chars() {

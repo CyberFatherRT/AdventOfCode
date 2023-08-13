@@ -1,5 +1,5 @@
 pub fn part1() -> String {
-    let file_path = "input.txt";
+    let file_path = "../../inputs/day2.txt";
     let string = std::fs::read_to_string(file_path).expect("Failed to read input file");
 
     let mut res = 0;
